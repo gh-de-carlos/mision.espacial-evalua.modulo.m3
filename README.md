@@ -19,14 +19,14 @@ Construir un programa que simule una misión de exploración galáctica. El usua
 **FASES DE DESARROLLO**
 
 ### Fase 1: Configuración de misión
-* Declarar variables para el nombre de la `nave` (tipo string), `distanciaEstimada` (number), `estadoMisión` (boolean) y `recursosDisponibles` (objeto con propiedades como agua, comida y energía).
-* Crear un objeto `nave` que contenga las propiedades generales de la misión: nombre, modelo, tripulación (como un arreglo vacío), y estado de la misión.
-* Incluir métodos dentro del objeto como `mostrarEstado()` y `reportarRecursos()` para imprimir mensajes por consola.
+* Declarar variables para el nombre de la ✔️ `nave` (tipo string), ✔️ `distanciaEstimada` (number), ✔️ `estadoMisión` (boolean) y ✔️ `recursosDisponibles` (objeto con propiedades como agua, comida y energía).
+* Crear un objeto ✔️ `nave` que contenga las propiedades generales de la misión: ✔️ nombre, ✔️ modelo, ✔️ tripulación (como un arreglo vacío), y ✔️ estado de la misión.
+* Incluir métodos dentro del objeto como ✔️ `mostrarEstado()` y ✔️ `reportarRecursos()` para imprimir mensajes por consola.
 * Utilizar el objeto `Math` para generar cantidades aleatorias de recursos iniciales.
 
 ### Fase 2: Registro de tripulantes
 * Crear una función para registrar tripulantes en un arreglo llamado `tripulacion`, cada uno representado por un objeto con nombre, rol y nivel de salud (de 0 a 100).
-* Crear funciones auxiliares corno agregar `tripulante(nombre, rol)` y `mostrarTripulacion()` que permitan administrar la tripulación.
+* Crear funciones auxiliares como agregar ✔️ `tripulante(nombre, rol)` y `mostrarTripulacion()` que permitan administrar la tripulación.
 
 ### Fase 3: Simulación de eventos
 * Simular un menú de opciones con una variable opcion y estructuras condicionales `if` o `switch` para ejecutar distintas acciones:
@@ -57,7 +57,11 @@ Construir un programa que simule una misión de exploración galáctica. El usua
 
 ## 👀 NOTAS
 
-- Joe Pino...
+- Primera versión solo con `prompt()` y `console.log`
+
+
+
+
 
 ## 📁 ESTRUCTURA DEL PROYECTO
 ```
